@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter TB8703 TB8704 TBX704 TB8504,$(TARGET_DEVICE)),)
+ifneq ($(filter TB8703 TB8704 TBX704 TB8504 TBX304,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsdm-disp-vndapis
