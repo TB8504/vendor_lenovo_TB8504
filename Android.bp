@@ -158,6 +158,7 @@ dex_import {
 	name: "WfdCommon",
 	owner: "lenovo",
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
 
 cc_prebuilt_library_shared {
 	name: "libts_detected_face_hal",
